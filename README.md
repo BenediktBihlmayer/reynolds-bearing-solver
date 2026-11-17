@@ -16,6 +16,9 @@ isoviscous lubricant:
 ```math
 \frac{\partial}{\partial x}\left(h^3 \frac{\partial p}{\partial x}\right) + \frac{\partial}{\partial z}\left(h^3 \frac{\partial p}{\partial z}\right) = 6 \eta U \frac{\partial h}{\partial x}
 ```
+```math
+h(\varphi) = C \left[1 + \varepsilon \cos(\varphi - \delta_\varphi)\right]
+```
 
 Here, x = Rφ is the circumferential coordinate, z is the axial coordinate,
 h is the film thickness, p is the pressure, η is the dynamic viscosity,
