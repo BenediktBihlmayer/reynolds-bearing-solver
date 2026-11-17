@@ -13,15 +13,6 @@ master's thesis to support comparisons with CFD simulations.
 The solver uses the steady Reynolds equation for an incompressible,
 isoviscous lubricant:
 
-$$
-\frac{\partial}{\partial x}
-\left(h^3 \frac{\partial p}{\partial x}\right)
-+
-\frac{\partial}{\partial z}
-\left(h^3 \frac{\partial p}{\partial z}\right)
-=
-6 \eta U \frac{\partial h}{\partial x}
-$$
 ```math
 \frac{\partial}{\partial x}\left(h^3 \frac{\partial p}{\partial x}\right) + \frac{\partial}{\partial z}\left(h^3 \frac{\partial p}{\partial z}\right) = 6 \eta U \frac{\partial h}{\partial x}
 ```
